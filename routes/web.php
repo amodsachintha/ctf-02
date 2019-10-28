@@ -9,7 +9,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('level.01');
 
-Route::get('/550a141f12de6', function (Request $request) {
+Route::put('/550a141f12de6', function (Request $request) {
     $hdrs = $request->header();
     $hdrs['next'] = route('level.03');
     $hdrs['accept'] = substr($hdrs['accept'][0], 0, 21) . '-ZmxhZ3s5NDNlNGYwMjcwNmFjZDAyNjVlMTNkMzA0MzNhNGYxOX0=-' . substr($hdrs['accept'][0], 21);
