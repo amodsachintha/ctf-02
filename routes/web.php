@@ -31,7 +31,7 @@ Route::get('/d95774d03a3ef', function () {
 Route::post('/upload222452525', function (Request $request) {
     if ($request->hasFile('file')) {
         $file = $request->file('file');
-        if ($file->getSize() <= 16) {
+        if ($file->getSize() <= 8) {
             $uuid = str_replace('-', '', Uuid::uuid4());
             $file->storeAs('public/uploads', $uuid . '.' . $file->getClientOriginalExtension());
             return response()->json([
@@ -47,3 +47,12 @@ Route::post('/upload222452525', function (Request $request) {
     } else
         return response()->json('none', 422);
 })->name('upload');
+
+Route::get('/login',function (){
+    sleep(50);
+    return back();
+});
+
+Route::get('/admin',function (){
+    abort(401);
+});
