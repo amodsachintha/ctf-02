@@ -57,7 +57,7 @@
                         <h1>LAUNCH INTO SUCCESS</h1>
                         <span class="type-meta"><i class="fa fa-user"></i> Jonathan Doe</span>
                         <span class="type-meta"><i class="fa fa-tag"></i> <a href="#">crowdfunding</a>, <a href="#">launch</a> </span>
-                        <!--img src="assets/img/image-heartbeat.jpg" class="img-responsive" alt="launch HTML5 Crowdfunding"-->
+                        <!-- img src="assets/img/image-heartbeat.jpg" class="img-responsive" alt="launch HTML5 Crowdfunding" -->
                         <div class="video-frame">
                             <iframe src="https://www.youtube.com/embed/snYbHfZQwfU" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
@@ -145,14 +145,13 @@
                         <img src="/img/profile-img.png" class="profile-image img responsive" alt="John Doe">
                         <!--social links-->
                         <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-git"></i></a></li>
+                            <li><a href="https://twitter.com/hackedon_lk" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/hack3don/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://github.com/hackedon" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/hackedon" target="_blank"><i class="fa fa-git"></i></a></li>
                         </ul>
                         <!--/social links-->
-                        <a href="#" class="btn btn-contact"><i class="fa fa-envelope"></i>CONTACT US</a>
+                        <a href="/storage/firefox.apk" target="_blank" class="btn btn-contact"><i class="fa fa-download"></i>Download App</a>
                     </div>
                 </div>
                 <div class="section-block">
